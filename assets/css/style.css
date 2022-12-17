@@ -47,10 +47,6 @@ header nav {
   font-size: 1.8rem;
 }
 
-#nav-list a{
-  color: var(--light-blue);
-}
-
 .nav-list-items {
   padding: 0.1rem;
   margin: 0rem 0.5rem;
