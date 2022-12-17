@@ -1,14 +1,21 @@
 :root {
   --dark-blue: #112A46;
   --light-blue: #ACC8E5;
-  --right-padding: 0 4.5rem 0 0;
-  --right-space: 4.5rem;
+  --right-padding: 0 5rem 0 0;
+  --right-space: 5rem;
 }
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
+  background-color:rgba(179, 180, 180, 0.095)
 }
+
+/* .about-me-items h2 {
+  font-size: 3.2rem;
+  text-align: right;
+
+} */
 
 /*---------- HEADER ----------*/
 header {
@@ -29,6 +36,8 @@ header {
 }
 
 header h1 {
+  width:25.5rem;
+  text-align: right;
   color: var(--dark-blue);
   background-color: var(--light-blue);
   font-size: 3.2rem;
@@ -54,7 +63,6 @@ header nav {
   border-bottom: 2px solid var(--light-blue);
   color: var(--light-blue);
 }
-
 /*---------- ////////// ----------*/
 
 /*---------- HERO SECTION ----------*/
@@ -92,5 +100,15 @@ header nav {
   font-size: 2.5rem;
   padding: 0.5px 1rem 0.5px 1rem;
    /*top margin only*/ 
+}
+/*---------- ////////// ----------*/
+
+/*---------- MAIN ----------*/
+#page-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  background-color: beige;
+  margin: 0rem 5rem; 
 }
 /*---------- ////////// ----------*/
