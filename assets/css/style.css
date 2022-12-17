@@ -1,7 +1,8 @@
 :root {
   --dark-blue: #112A46;
   --light-blue: #ACC8E5;
-  --right-padding: 0 4.5rem 0 0;;
+  --right-padding: 0 4.5rem 0 0;
+  --right-space: 4.5rem;
 }
 
 body {
@@ -54,4 +55,42 @@ header nav {
   color: var(--light-blue);
 }
 
+/*---------- ////////// ----------*/
+
+/*---------- HERO SECTION ----------*/
+#hero-banner{
+  /*h2 and div background are placed absolute to #hero-banner*/
+  position: relative;
+
+  background-image: url(../images/deco/matrix-by-Tobias_ET-Pixabay.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 21rem;
+}
+
+#hero-banner div {
+  /*Position linked to container*/
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /*Create a filter for background image*/
+  background-color: rgba(0, 32, 112, 0.368);
+}
+
+#hero-banner h2 {
+  /*Position linked to section #hero-banner*/
+  display: inline;
+  position: absolute;
+  bottom: 2rem;
+  right: var(--right-space);
+
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
+  font-size: 2.5rem;
+  padding: 0.5px 1rem 0.5px 1rem;
+   /*top margin only*/ 
+}
 /*---------- ////////// ----------*/
