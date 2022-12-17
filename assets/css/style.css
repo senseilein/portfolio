@@ -105,7 +105,7 @@ header nav {
 /*---------- ////////// ----------*/
 
 /*---------- ABOUT ----------*/
-#about{
+.page-section {
   display: flex;
   border: 3px solid green;
 }
@@ -124,7 +124,29 @@ header nav {
 }
 
 #about p {
-  flex: 3;
+  flex: 2 2 auto;
   border: 5px dotted yellow;
 }
+
+#about-div-1 {
+    background-color: pink;
+}
+/*---------- ////////// ----------*/
+
+
+/*---------- PROJECTS ----------*/
+
+#work h2 {
+  flex: 1 1 auto;
+  width: 25rem;
+  font-size: 3.2rem;
+  color: var(--dark-blue);
+  text-align: right;
+
+  /*to be reviewed / handle margin&padding of p as well*/
+
+  padding: 0 2rem 0 0; 
+  border: 5px dotted rgb(0, 200, 255);
+}
+
 /*---------- ////////// ----------*/
