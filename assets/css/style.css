@@ -1,17 +1,61 @@
+:root {
+  --dark-blue: #112A46;
+  --light-blue: #ACC8E5;
+  --right-padding: 0 4.5rem 0 0;;
+}
+
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
+/*---------- HEADER ----------*/
+header {
+  /*position- stay at the top of viewport + foreground + padding on the right side*/
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: var(--right-padding);
+
+
+  /* Flex properties (children = header-items(h1 & nav))*/
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  background-color: var(--dark-blue);
+  height: 7rem;
 }
 
-p {
-  margin: 0;
+header h1 {
+  color: var(--dark-blue);
+  background-color: var(--light-blue);
+  font-size: 3.2rem;
+  padding: 0.5px 1rem 0.5px 5rem;
+  margin: 0.5rem 0 0 0; /*top margin only*/
 }
+
+header nav {
+  margin: 0.2rem;
+  width: 40rem;
+}
+
+#nav-list {
+  /* Flex properties of nav ul (children = .nav-list-items)*/
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.8rem;
+}
+
+#nav-list a{
+  color: var(--light-blue);
+}
+
+.nav-list-items {
+  padding: 0.1rem;
+  margin: 0rem 0.5rem;
+  border-bottom: 2px solid var(--light-blue);
+  color: var(--light-blue);
+}
+
+/*---------- ////////// ----------*/
