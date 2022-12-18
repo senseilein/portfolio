@@ -124,9 +124,7 @@ header nav {
   background-color: grey;
   border-right: 5px solid rgba(0, 32, 112, 0.368);
 }
-#about-text {
-  
-  /* align-self: start; */
+#about-text { 
   flex: 3 0 80% ;
   width: 80%;
   background-color: lightblue;
@@ -162,9 +160,12 @@ header nav {
 #small-projects {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content:space-between;
 }
 
+.mini-projects {
+  width: 50%;
+}
 /* .image-sections{
 
 } */
