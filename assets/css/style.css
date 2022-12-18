@@ -1,6 +1,6 @@
 :root {
   --dark-blue: #112A46;
-  --light-blue: #ACC8E5;
+  --light-blue: #f3f8fe;
   --right-padding: 0 4.5rem 0 0;
   --right-space: 4.5rem;
 }
@@ -96,35 +96,95 @@ header nav {
    /*top margin only*/ 
 }
 /*---------- ////////// ----------*/
-
-
-/*---------- MAIN----------*/
-#page-wrapper{
-  padding: 3rem 4.5rem 3rem 0;
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4.5rem;
+  border: 10px solid pink ;
 }
-/*---------- ////////// ----------*/
 
-/*---------- ABOUT ----------*/
+.page-wrapper > *{
+  margin-top: 2rem;
+}
+
 #about{
   display: flex;
-  border: 3px solid green;
+
 }
 
+
+#about .about-items{
+  outline: 4px solid red;
+}
 #about h2 {
-  flex: 1 1 auto;
-  width: 25rem;
-  font-size: 3.2rem;
-  color: var(--dark-blue);
-  text-align: right;
-
-  /*to be reviewed / handle margin&padding of p as well*/
-
-  padding: 0 2rem 0 0; 
-  border: 5px dotted red;
+  flex: 1 0 20%;
+  background-color: grey;
+  border-right: 5px solid rgba(0, 32, 112, 0.368);
+}
+#about div {
+  flex: 3 1 80% ;
+  background-color: lightblue;
 }
 
-#about p {
-  flex: 3;
-  border: 5px dotted yellow;
+
+
+#work {
+  display: flex;
+  
 }
-/*---------- ////////// ----------*/
+
+#work .work-items {
+  outline: 5px solid yellow;
+}
+#work h2 {
+  flex: 1 0 20%;
+  background-color: pink;
+  border-right: 5px solid rgba(0, 32, 112, 0.368);
+}
+#work div {
+  flex: 3 1 80%;
+  background-color: greenyellow;
+}
+
+
+
+#projects-images{
+  display: flex;
+  flex-direction: column;
+}
+
+#big-project{
+  border: 2px solid black;
+}
+#small-projects{
+  border: 3px solid brown;
+}
+
+#small-projects {
+  display: flex;
+}
+
+
+
+
+
+#contact {
+  display: flex;
+}
+
+#contact h2 {
+  flex: 1 0 20%;
+  border-right: 5px solid rgba(0, 32, 112, 0.368);
+  background-color: grey;
+  outline: 4px dashed red;
+}
+
+#contact div {
+  flex: 3 1 80%;
+  background-color: aquamarine;
+}
+
+p {
+  font-size: 2.1rem;
+}
