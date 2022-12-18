@@ -107,6 +107,10 @@ header nav {
   flex-direction: var(--column);
 }
 
+.flex-row {
+  display: var(--flex-parent);
+}
+
 /*---------- MAIN----------*/
 
 #page-wrapper{

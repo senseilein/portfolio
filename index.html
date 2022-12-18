@@ -46,7 +46,7 @@
 
   <main class="flex-column" id="page-wrapper" >
     <!-- ABOUT ME -->
-    <section class="page-section" id="about">
+    <section class="page-section flex-row" id="about">
 
       <h2 class="about-items">About<br> Me</h2>
 
@@ -62,10 +62,10 @@
     </section>
 
     <!-- PORTFOLIO CONTAINER -->
-    <section class="page-section" id="work">
+    <section class="page-section flex-row" id="work">
       <h2 class="work-items">Work</h2>
 
-      <div class="work-items" id="work-images">
+      <div class="work-items flex-column" id="work-images">
         <div id="big-project" class="image-sections">
           <article id="project1">
             <div class="project-image">
@@ -81,7 +81,7 @@
             </div>
           </article>
         </div>
-        <div id="small-projects" class="image-sections">
+        <div id="small-projects" class="image-sections flex-row">
           <article id="project2" class="mini-projects">
             <div class="project-image">
               <a href="https://placeholder.com"><img src="https://via.placeholder.com/300x140"
@@ -136,10 +136,10 @@
     </section>
 
     <!-- CONTACT -->
-    <footer class="page-section" id="contact">
+    <footer class="page-section flex-row" id="contact">
       <h2 class="footer-items">Contact Me</h2>
       <address class="footer-items" id="contact-text">
-        <ul id="contact-nav">
+        <ul id="contact-nav flex-row">
           <li id="contact-1" class="contact">555.555.555</li>
           <li id="contact-2" class="contact">Email@address.com</li>
           <li id="contact-3" class="contact">Github</li>
