@@ -8,6 +8,8 @@
 
   --flex-parent: flex;
   --column: column;
+  --wrap: wrap;
+
   --center: center;
 
   --heading: 3.2rem;
@@ -146,5 +148,16 @@ header nav {
   font-size: var(--heading);
   text-align: right;
 }
+
+#about-content,
+#work-content,
+#contact-content{
+  flex: 3 1 75%;
+  /* width: to be set in relation to h1 size*/ 
+}
+
+
+
+
 
 
