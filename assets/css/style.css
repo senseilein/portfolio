@@ -165,9 +165,6 @@ header nav {
 
 } */
 
-
-
-
 #contact {
   display: flex;
 }
@@ -197,3 +194,14 @@ p {
 }
 
 
+#contact address {
+  border: 5px dotted blueviolet;
+  padding: 4.5rem;
+}
+#contact-nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px dashed green;
+
+}
