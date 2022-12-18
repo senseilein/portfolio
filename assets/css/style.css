@@ -20,10 +20,6 @@ body {
   line-height: 1.5;
 }
 
-P {
-  font-size: 2.1rem;
-}
-
 /*---------- HEADER ----------*/
 header {
   /*position- stay at the top of viewport + foreground + padding on the right side*/
@@ -163,6 +159,11 @@ header nav {
   /* width: to be set in relation to h1 size*/ 
 }
 
+#about P{
+  font-size: 1.8rem;
+  text-align: justify;
+}
+
 #small-projects-section{
   flex-wrap: var(--wrap);
   justify-content: space-between;  
@@ -172,12 +173,13 @@ header nav {
   width: 50%;
 }
 
-/*---------- footer ----------*/
+/*---------- FOOTER ----------*/
 
 #contact-nav {
   justify-content: space-between;
   align-items: center;
   padding: var(--right-space);
   width: 80% auto;
+  font-size: 2rem;
 } 
 
