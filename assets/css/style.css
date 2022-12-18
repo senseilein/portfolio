@@ -130,12 +130,12 @@ header nav {
   margin-top: 2rem;
 }
 
-.page-section{
+.page-section {
   justify-content: center;
   /* width: 80% auto; test*/
 }
 
-/*---------- h2 headings ----------*/
+/*---------- MAIN TEXT (h2, h3, p) ----------*/
 
 #about h2,
 #work h2,
@@ -149,6 +149,21 @@ header nav {
   font-size: var(--heading);
   text-align: right;
 }
+
+.project-text{
+  background-color: var(--light-blue);
+  display: inline-block;
+  padding: 1rem;
+
+  color: var(--dark-blue);
+  font-size: 1.5rem;
+}
+
+#project-text h3 {
+  color: var(--dark-blue);
+  font-size: 2rem;
+}
+
 
 /*---------- content ----------*/
 #about-content,
@@ -171,6 +186,7 @@ header nav {
 .small-projects {
   width: 50%;
 }
+
 
 /*---------- FOOTER ----------*/
 
