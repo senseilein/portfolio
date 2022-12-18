@@ -1,8 +1,13 @@
 :root {
   --dark-blue: #112A46;
   --light-blue: #ACC8E5;
+
   --right-padding: 0 4.5rem 0 0;
   --right-space: 4.5rem;
+
+  --flex-parent: flex;
+  --column: column;
+  --center: center;
 }
 
 body {
@@ -20,7 +25,7 @@ header {
 
 
   /* Flex properties (children = header-items(h1 & nav))*/
-  display: flex;
+  display: var(--flex-parent);
   justify-content: space-between;
   align-items: baseline;
 
@@ -97,34 +102,21 @@ header nav {
 }
 /*---------- ////////// ----------*/
 
+.flex-column {
+  display: var(--flex-parent);
+  flex-direction: var(--column);
+}
 
 /*---------- MAIN----------*/
+
 #page-wrapper{
-  padding: 3rem 4.5rem 3rem 0;
+  /* flex-column*/
+  justify-content: var(--center);
+  margin: 2rem var(--right-space);
+
+  /*To be removed after styling*/
+  border: 3px solid pink;
 }
+
 /*---------- ////////// ----------*/
 
-/*---------- ABOUT ----------*/
-#about{
-  display: flex;
-  border: 3px solid green;
-}
-
-#about h2 {
-  flex: 1 1 auto;
-  width: 25rem;
-  font-size: 3.2rem;
-  color: var(--dark-blue);
-  text-align: right;
-
-  /*to be reviewed / handle margin&padding of p as well*/
-
-  padding: 0 2rem 0 0; 
-  border: 5px dotted red;
-}
-
-#about p {
-  flex: 3;
-  border: 5px dotted yellow;
-}
-/*---------- ////////// ----------*/
