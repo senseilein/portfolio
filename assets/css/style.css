@@ -134,6 +134,12 @@ header nav {
 #page-wrapper > *{
   margin-top: 2rem;
 }
+
+.page-section{
+  justify-content: center;
+  /* width: 80% auto; test*/
+}
+
 /*---------- h2 headings ----------*/
 
 #about h2,
@@ -149,6 +155,7 @@ header nav {
   text-align: right;
 }
 
+/*---------- content ----------*/
 #about-content,
 #work-content,
 #contact-content{
@@ -165,7 +172,12 @@ header nav {
   width: 50%;
 }
 
+/*---------- footer ----------*/
 
-
-
+#contact-nav {
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--right-space);
+  width: 80% auto;
+} 
 
