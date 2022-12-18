@@ -110,7 +110,7 @@ header nav {
 
 #about{
   display: flex;
-
+  position: relative;
 }
 
 
@@ -119,12 +119,16 @@ header nav {
 }
 #about h2 {
   /*flex: 1 0 20%;*/
+
   flex: 1 0 12rem;
   background-color: grey;
   border-right: 5px solid rgba(0, 32, 112, 0.368);
 }
 #about-text {
-  flex: 3 1 80% ;
+  
+  /* align-self: start; */
+  flex: 3 0 80% ;
+  width: 80%;
   background-color: lightblue;
 }
 
@@ -165,6 +169,7 @@ header nav {
 
 } */
 
+
 #contact {
   display: flex;
 }
@@ -177,7 +182,7 @@ header nav {
 }
 
 #contact-text {
-  flex: 3 1 80%;
+  flex: 3 0 80%;
   background-color: aquamarine;
 }
 
@@ -188,6 +193,7 @@ p {
 #about h2,
 #contact h2,
 #work h2 {
+
   margin-right: 3rem;
   font-size: 3.2rem;
   text-align: right;
@@ -197,11 +203,14 @@ p {
 #contact address {
   border: 5px dotted blueviolet;
   padding: 4.5rem;
+  width: 80%;
 }
+
 #contact-nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
   border: 2px dashed green;
-
 }
+
+
