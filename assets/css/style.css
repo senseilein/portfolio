@@ -156,6 +156,14 @@ header nav {
   /* width: to be set in relation to h1 size*/ 
 }
 
+#small-projects-section{
+  flex-wrap: var(--wrap);
+  justify-content: space-between;  
+}
+
+.small-projects {
+  width: 50%;
+}
 
 
 
