@@ -1,7 +1,5 @@
 ### PORTFOLIO
 
-Draft/
-
 # PORTFOLIO PROJECT
 
 ![](https://img.shields.io/badge/html-HTML5-orange?logo=html5)
