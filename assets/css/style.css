@@ -209,6 +209,8 @@ header a{
 }
 
 #project1{
+  width: 100%;
+  position: center;
   object-fit: cover;
 }
 
