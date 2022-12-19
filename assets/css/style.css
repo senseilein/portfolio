@@ -208,6 +208,10 @@ header a{
   margin-top: 0.8rem;
 }
 
+#project1{
+  object-fit: cover;
+}
+
 .project-image img {
   max-width: 100%;
   height: auto;
