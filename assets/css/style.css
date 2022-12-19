@@ -73,7 +73,6 @@ header a{
   border-bottom: 2px solid var(--light-blue);
   color: var(--light-blue);
 }
-
 /*---------- ////////// ----------*/
 
 
@@ -113,8 +112,8 @@ header a{
   padding: 0.5px 1rem 0.5px 1rem;
   /*top margin only*/
 }
-
 /*---------- ////////// ----------*/
+
 
 /*---------- MAIN----------*/
 .flex-column {
@@ -275,3 +274,5 @@ footer a{
   border-bottom: 2px solid var(--dark-blue);
   color: var(--dark-blue);
 }
+
+/*---------- ///// ----------*/
