@@ -78,7 +78,7 @@ The following image shows the web application's requirements in terms of appeara
 
 **I have chosen a different colour palette for the final version:**
 
-![My version](./starter/Sansi%20Bindika%20Web%20Developer.png)
+![My version](./starter/Sansi-Bindika-Web-Developer-screenshot.png )
 
 **Note**: This layout is designed for desktop viewing.
 

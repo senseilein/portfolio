@@ -309,7 +309,12 @@ footer a{
     text-align: center;
     padding: 0.5rem;
   }
-  head nav {
+
+  header nav {
     width: auto;
+  }
+
+  #nav-list {
+    justify-content: center
   }
 }
