@@ -23,7 +23,7 @@ Draft/
 
 ### 🎯 What is it about?
 
-A Front-end portfolio that will allow me to showcase my projects.
+A portfolio that will allow me to showcase my projects as a front-end developer.
 
 ## 💻 USAGE
 
@@ -66,33 +66,34 @@ It's done when:
 - [ ] The HTML document includes a `<meta>` description with a `viewport` and `content` attributes.
 - [ ] The HTML document contains a header with a navigation menu.  
 - [ ] All the links in the navigation menu have an `href`attribute with a value equals to the corresponding section's id.
-- [ ] All images for each application are clickable and contain a descriptive `alt` attribute.
+- [ ] All images for each deployed application are clickable and contain a descriptive `alt` attribute.
 - [ ] All links function correctly.
 - [ ] Application's CSS selectors and properties are consolidated and organized to follow semantic structure.
 - [ ] HTML and CSS files are properly commented.
+- [ ] CSS code contains media queries to make the website fully responsive.
+
 
 ## 🎨 MOCK-UP
 
-The following image shows the web application's appearance and functionality:
+The following image shows the web application's requirements in terms of appearance and functionality (colours and images can be different):
 
-![blabla](Assets/01-html-css-git-challenge-demo.png)
+![portfolio model](./images/01-css-challenge-demo.gif)
 
 **Note**: This layout is designed for desktop viewing.
 
 ## 🔧 TECHNOLOGY USED
 
 - HTML
-- CSS +++
+- CSS: flexbox, media queries and CSS variables
 
 ### 💡 What I've learnt
 
-- I discovered more `<meta>` and semantics tags to improve the positioning of the web application.
-- I was able to incorporate some CSS variables, providing more readability to the code.
+- CSS variables provides more readability to the code and save time when updating the website style.
 
 ### ➕ Suggestions for improvement
 
-- Review code colour contrast
-- Make the website responsive so that it can be accessed from different platforms
+- Review code colour contrast to improve accessibility
+- Create a dark mode version of the website
 
 ## 🚀 INSTALLATION
 
@@ -102,15 +103,10 @@ No installation needed
 
 - This project was made as part of a coding assignment with [Trilogy Education Services](https://skillsforlife.edx.org/?utm_source=govuk)
 - [W3C](https://validator.w3.org/) for markup and CSS validity
-- Useful website for accessibility related info by [CanAdapt Solutions](https://www.davidmacd.com/blog/alternate-text-for-css-background-images.html)
+- Favicon available on [icon-icons.com](https://icon-icons.com/download/50528/ICO/512/)
+- Matrix h
+eader image by [Tobias_ET](https://pixabay.com/users/tobias_et-5291314/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2354492) from [Pixabay](https://pixabay.com)
 
 ## 📜 LICENSE
 
 This repository is licensed under the MIT license.
-
-credits
-https://icon-icons.com/download/50528/ICO/512/
-
-marix >> Image by a href=httpspixabay.comuserstobias_et-5291314utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2354492Tobias_ETa from a href=httpspixabay.comutm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2354492Pixabaya
-
-woman coder Image by <a href="https://pixabay.com/users/chenspec-7784448/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5888934">Chen</a> from <a href="https://pixabay.com//?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5888934">Pixabay</a>
