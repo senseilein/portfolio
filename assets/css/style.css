@@ -250,4 +250,5 @@ header nav {
   padding: 0.1rem;
   margin: 0rem 0.5rem;
   border-bottom: 2px solid var(--dark-blue);
+  color: var(--dark-blue);
 }
