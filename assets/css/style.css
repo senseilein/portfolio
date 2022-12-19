@@ -184,17 +184,32 @@ header nav {
   justify-content: space-between;  
 }
 
-.small-projects {
-  width: 50%;
-}
-
 /*---------- IMAGE ----------*/
-img{
-  max-width:100%;
-max-height:100%;
-object-fit: contain;
+.small-projects{
+  position: relative;
+  width: 50%;
+  max-height: 16rem;
+  overflow: hidden;
+   border: 5px solid var(--light-blue);
 }
 
+.project-image img {
+  max-width: 100%;
+  height: fit-content;
+  object-fit: contain;
+  }
+  
+  .project-text{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+  }
+
+  .image-sections {
+    /* class for #big-project and #small-project-section */
+     justify-content: space-between; 
+    
+    } 
 /*---------- FOOTER ----------*/
 
 #contact-nav {
@@ -211,14 +226,3 @@ object-fit: contain;
   border-bottom: 2px solid var(--dark-blue);
 }
 
-
-/*TEST*/
-
-article{
-  position: relative;
-}
-.project-text{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}

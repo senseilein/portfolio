@@ -1,0 +1,31 @@
+/*TEST*/
+
+.small-projects{
+    position: relative;
+    max-height: 15rem;
+  }
+  
+  /* article {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .project-text{
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+  } */
+  
+  /* .project-image img {
+  max-width: 100%;
+  height: fit-content;
+  object-fit: cover;
+  border: 5px solid var(--light-blue)
+  } */
+  
+  
+  .image-sections {
+  /* class for #big-project and #small-project-section */
+   justify-content: space-between; 
+  
+  } 
