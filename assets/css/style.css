@@ -302,12 +302,15 @@ footer a{
   header{
     flex-wrap: wrap;
     justify-content: center;
-  align-items: center;
+    align-items: center;
+    height: 8vh;
+    padding: 0;
   }
 
   header h1 {
     text-align: center;
     padding: 0.5rem;
+    font-size: 2.2rem;
   }
 
   header nav {
@@ -315,6 +318,11 @@ footer a{
   }
 
   #nav-list {
-    justify-content: center
+    justify-content: center; 
   }
+  /* #hero-banner h2{
+  display: block;
+  position: static;
+} */
+
 }
