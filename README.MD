@@ -23,11 +23,7 @@ Draft/
 
 ### 🎯 What is it about?
 
-Front-end portfolio
-
-### 🌏 Why is web accessibility important?
-
-To showcase my projects
+A Front-end portfolio that will allow me to showcase my projects.
 
 ## 💻 USAGE
 
