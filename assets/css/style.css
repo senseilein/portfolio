@@ -276,3 +276,40 @@ footer a{
 }
 
 /*---------- ///// ----------*/
+
+/*---------- MEDIA QUERIES ----------*/
+
+@media only screen and (max-width: 840px){
+  .small-projects {
+    flex: 80%;
+    height: 13rem; 
+}
+
+
+/* modify space between small img*/
+#project2,
+#project4 {
+  margin-right: 0rem;
+}
+#project3,
+#project4,
+#project5 {
+  margin-top: 0.8rem;
+}
+}
+
+@media only screen and (max-width: 567px){
+  header{
+    flex-wrap: wrap;
+    justify-content: center;
+  align-items: center;
+  }
+
+  header h1 {
+    text-align: center;
+    padding: 0.5rem;
+  }
+  head nav {
+    width: auto;
+  }
+}
