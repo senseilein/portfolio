@@ -193,7 +193,7 @@ header a{
 .small-projects {
   position: relative;
   flex: 45%;
-  height: 12rem;
+  height: 15rem;
   overflow: hidden;
   border: 5px solid var(--light-blue);
 }
