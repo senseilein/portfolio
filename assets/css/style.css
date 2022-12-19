@@ -146,8 +146,8 @@ header a{
 #about h2,
 #work h2,
 #contact h2 {
-  flex: 1 0 12rem;
-  margin-right: 3rem;
+  flex: 1 0 12.2rem;
+  margin-right: var(--right-space);
   padding-right: 0.8rem;
   border-right: 3px solid var(--dark-blue);
 
