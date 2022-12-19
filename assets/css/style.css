@@ -68,12 +68,12 @@ header nav {
   border-bottom: 2px solid var(--light-blue);
   color: var(--light-blue);
 }
-
 /*---------- ////////// ----------*/
+
 
 /*---------- HERO SECTION ----------*/
 #hero-banner {
-  /*h2 and div background are placed absolute to #hero-banner*/
+  /*h2 and div background are placed absolute to #hero-banner, so this needs to be relative*/
   position: relative;
 
   background-image: url(../images/deco/matrix-by-Tobias_ET-Pixabay.jpg);
@@ -209,17 +209,16 @@ header nav {
   opacity: 0.4;
 }
 
-.project-image img:hover {
-  opacity: 0.7;
-} 
-
 /*Create tint to image*/
 .project-image{
   background-color: var(--light-blue);
 }
+/* Tint is lessen on hover*/
+.project-image img:hover {
+  opacity: 0.7;
+} 
 
-
-
+/*Big image styling*/
 #project1 {
   position: relative;
   overflow: hidden;
@@ -230,6 +229,7 @@ header nav {
   border: 5px solid var(--light-blue);
 }
 
+/*Text on top of image divs*/
 .project-text {
   position: absolute;
   bottom: 2rem;
