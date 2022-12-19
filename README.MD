@@ -23,7 +23,7 @@ A portfolio that will allow me to showcase my projects as a front-end developer.
 
 ## 💻 USAGE
 
-[**>> Visit my portfolio website <<**](https://senseilein.github.io/challenge1-portfolio/)
+[**>> Visit my portfolio website <<**](https://senseilein.github.io/portfolio/)
 
 ### 💬 User story
 
