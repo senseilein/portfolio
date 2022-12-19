@@ -26,18 +26,20 @@ A portfolio that will allow me to showcase my projects as a front-end developer.
 [**>> Visit my portfolio website <<**](https://senseilein.github.io/challenge1-portfolio/)
 
 ### 💬 User story
+
 ```
-As a Front-End Developer,  
+As a Front-End Developer,
 I WANT to have a portfolio webpage
 SO THAT I can showcase my technical skills to potential collaborators
 ```
+
 ```
 GIVEN the portfolio webpage
 
-WHEN the page is loaded, 
+WHEN the page is loaded,
 THEN the page presents my name, a recent photo or avatar, and links to sections about me, my work, and my contact details
 
-WHEN one of the links in the navigation is clicked  
+WHEN one of the links in the navigation is clicked
 THEN the UI scrolls to the corresponding section
 
 WHEN viewing the section about my work
@@ -46,7 +48,7 @@ THEN the section contains titled images of my applications
 WHEN presented with the first application
 THEN that application's image is larger in size than the others
 
-WHEN images of the applications are clicked   
+WHEN images of the applications are clicked
 THEN the user is taken to that deployed application
 
 WHEN the page is resized or viewed on various screens and devices
@@ -60,7 +62,7 @@ It's done when:
 
 - [ ] HTML elements follow a logical structure independent of styling and positioning.
 - [ ] The HTML document includes a `<meta>` description with a `viewport` and `content` attributes.
-- [ ] The HTML document contains a header with a navigation menu.  
+- [ ] The HTML document contains a header with a navigation menu.
 - [ ] All the links in the navigation menu have an `href`attribute with a value equals to the corresponding section's id.
 - [ ] All images for each deployed application are clickable and contain a descriptive `alt` attribute.
 - [ ] All links function correctly.
@@ -68,12 +70,13 @@ It's done when:
 - [ ] HTML and CSS files are properly commented.
 - [ ] CSS code contains media queries to make the website fully responsive.
 
-
 ## 🎨 MOCK-UP
 
-The following image shows the web application's requirements in terms of appearance and functionality (colours and images can be different):
+The following image shows the web application's requirements in terms of appearance and functionality (I've chosen different colours for the final result):
 
-![portfolio model](./images/01-css-challenge-demo.gif)
+![portfolio model](./starter/01-css-challenge-demo.gif)
+
+![My version](./starter/Sansi%20Bindika%20Web%20Developer.png)
 
 **Note**: This layout is designed for desktop viewing.
 
@@ -101,7 +104,7 @@ No installation needed
 - [W3C](https://validator.w3.org/) for markup and CSS validity
 - Favicon available on [icon-icons.com](https://icon-icons.com/download/50528/ICO/512/)
 - Matrix h
-eader image by [Tobias_ET](https://pixabay.com/users/tobias_et-5291314/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2354492) from [Pixabay](https://pixabay.com)
+  eader image by [Tobias_ET](https://pixabay.com/users/tobias_et-5291314/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=2354492) from [Pixabay](https://pixabay.com)
 
 ## 📜 LICENSE
 
