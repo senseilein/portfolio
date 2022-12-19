@@ -1,5 +1,3 @@
-### PORTFOLIO
-
 # PORTFOLIO PROJECT
 
 ![](https://img.shields.io/badge/html-HTML5-orange?logo=html5)
@@ -56,7 +54,7 @@ THEN the layout is responsive and adapts to my viewport
 
 ```
 
-## ✅ Acceptance Criteria
+### ✅ Acceptance Criteria
 
 It's done when:
 
