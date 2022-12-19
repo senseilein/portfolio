@@ -72,9 +72,11 @@ It's done when:
 
 ## 🎨 MOCK-UP
 
-The following image shows the web application's requirements in terms of appearance and functionality (I've chosen different colours for the final result):
+The following image shows the web application's requirements in terms of appearance and functionality:
 
 ![portfolio model](./starter/01-css-challenge-demo.gif)
+
+**I have chosen a different colour palette for the final version:**
 
 ![My version](./starter/Sansi%20Bindika%20Web%20Developer.png)
 
