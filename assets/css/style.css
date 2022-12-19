@@ -45,7 +45,8 @@ header h1 {
   width: 25.5rem;
   text-align: right;
   padding: 0 0.5rem 0 0;
-  margin: 0.5rem 0 0 0; /*top margin only*/
+  margin: 0.5rem 0 0 0;
+  /*top margin only*/
 }
 
 header nav {
@@ -71,7 +72,7 @@ header nav {
 /*---------- ////////// ----------*/
 
 /*---------- HERO SECTION ----------*/
-#hero-banner{
+#hero-banner {
   /*h2 and div background are placed absolute to #hero-banner*/
   position: relative;
 
@@ -104,8 +105,9 @@ header nav {
   background-color: var(--light-blue);
   font-size: 2.5rem;
   padding: 0.5px 1rem 0.5px 1rem;
-   /*top margin only*/ 
+  /*top margin only*/
 }
+
 /*---------- ////////// ----------*/
 
 /*---------- MAIN----------*/
@@ -118,13 +120,13 @@ header nav {
   display: var(--flex-parent);
 }
 
-#page-wrapper{
+#page-wrapper {
   /* flex-column*/
   justify-content: var(--center);
   margin: 2rem var(--right-space);
 }
 
-#page-wrapper > *{
+#page-wrapper>* {
   margin-top: 2rem;
 }
 
@@ -142,18 +144,18 @@ header nav {
   margin-right: 3rem;
   padding-right: 0.8rem;
   border-right: 3px solid var(--dark-blue);
-  
+
   color: var(--dark-blue);
   font-size: var(--heading);
   text-align: right;
 }
 
-#about P{
+#about P {
   font-size: 1.8rem;
   text-align: justify;
 }
 
-.project-text{
+.project-text {
   background-color: var(--light-blue);
   display: inline-block;
   padding: 1rem;
@@ -171,23 +173,33 @@ header nav {
 /*---------- CONTENT ----------*/
 #about-content,
 #work-content,
-#contact-content{
+#contact-content {
   flex: 3 1 75%;
-  /* width: to be set in relation to h1 size*/ 
+  /* width: to be set in relation to h1 size*/
 }
 
-#small-projects-section{
+#small-projects-section {
   flex-wrap: var(--wrap);
-  justify-content: stretch;
+  justify-content: space-between;
 }
 
 /*---------- IMAGES ----------*/
-.small-projects{
+.small-projects {
   position: relative;
-  width: 50%;
-  height: 13rem;
+  flex: 45%;
+  height: 12rem;
   overflow: hidden;
   border: 5px solid var(--light-blue);
+}
+
+/*Add space between small-projects images*/
+#project2,
+#project4 {
+  margin-right: 0.8rem;
+}
+#project4,
+#project5 {
+  margin-top: 0.8rem;
 }
 
 .project-image img {
@@ -195,39 +207,42 @@ header nav {
   height: auto;
   object-fit: contain;
   background-color: rgba(0, 32, 112, 0.368);
-  }
-  
-  #project1 {
-    position: relative;
-    overflow: hidden;
-  }
-  #project1 img{
-    border: 5px solid var(--light-blue);
-  }
-  .project-text{
-    position: absolute;
-    bottom: 2rem;
-    left: 0;
-  }
+}
 
-  .image-sections {
-    /* class for #big-project and #small-project-section */
-     justify-content: space-between; 
-    
-  } 
+#project1 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0.5rem;
+}
+
+#project1 img {
+  border: 5px solid var(--light-blue);
+}
+
+.project-text {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+}
+
+.image-sections {
+  /* class for #big-project and #small-project-section */
+  justify-content: space-between;
+
+}
+
 /*---------- FOOTER ----------*/
 
 #contact-nav {
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: var(--right-space) 0;
   width: 80% auto;
   font-size: 1.5rem;
-} 
+}
 
-#contact-nav li{
+#contact-nav li {
   padding: 0.1rem;
   margin: 0rem 0.5rem;
   border-bottom: 2px solid var(--dark-blue);
 }
-
